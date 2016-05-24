@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import "font-awesome";
+@import "fonts";
+@import "bootstrap";
+@import "mixins";
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #f5f5f5;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+header .container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+footer > .container {
+  padding-right: 30px;
+  padding-left: 30px;
+  .row > div p {margin: 20px 0;}
+}
+#breadcrumbs {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  .breadcrumb {
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
+.content {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+code {font-size: 80%;}
