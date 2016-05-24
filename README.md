@@ -26,22 +26,22 @@
 │   ├── config.php.inc  
 │   ├── define.php.inc 
 │   ├── footer.php  
-│   └── header.php
+│   └── header.php  
 ├── js  
 │   ├── bootstrap.min.js  
 │   ├── ie9  
 │   │   ├── html5shiv-printshiv.min.js  
 │   │   ├── html5shiv.min.js  
-│   │   └── respond.js
-│   ├── source
-│   │   └── script.js
+│   │   └── respond.js  
+│   ├── source  
+│   │   └── script.js  
 │   ├── jquery.min.js  
 │   └── script.min.js  
 ├── less  
 │   ├── bootstrap  
 │   │   └── файлы less bootstrap 
 │   ├── font-awesome.less  
-│   ├── fonts.less
+│   ├── fonts.less  
 │   ├── bootstrap.less  
 │   ├── style.less  
 │   └── variables.less  
