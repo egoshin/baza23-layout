@@ -1,11 +1,11 @@
-# Шаблон для верстки на bootstrap, адаптированный под 1C-Bitrix
+# Шаблон для верстки сайта baza23.ru на bootstrap, адаптированный под 1C-Bitrix
 
 ## Глобальные константы находятся в файле /include/define.php.inc:
 
     <?
-    define("SITE_TITLE", "Храм Рождества Иоанна Предтечи");
-    define("SITE_DIR", "/prototype/");
-    define("SITE_TEMPLATE_PATH", "/prototype/");
+    define("SITE_TITLE", "Baza23");
+    define("SITE_DIR", "/");
+    define("SITE_TEMPLATE_PATH", "/");
     ?>
 
 ## Структура шаблона
@@ -23,25 +23,31 @@
 ├── img  
 │   └── logotype.png  
 ├── include  
-│   ├── define.php.inc  
+│   ├── config.php.inc  
+│   ├── define.php.inc 
 │   ├── footer.php  
-│   └── header.php  
-├── index.php  
+│   └── header.php
 ├── js  
 │   ├── bootstrap.min.js  
 │   ├── ie9  
 │   │   ├── html5shiv-printshiv.min.js  
 │   │   ├── html5shiv.min.js  
-│   │   └── respond.js  
+│   │   └── respond.js
+│   ├── source
+│   │   └── script.js
 │   ├── jquery.min.js  
-│   └── script.js  
+│   └── script.min.js  
 ├── less  
 │   ├── bootstrap  
-│   │   └── wells.less  
+│   │   └── файлы less bootstrap 
+│   ├── font-awesome.less  
+│   ├── fonts.less
 │   ├── bootstrap.less  
 │   ├── style.less  
 │   └── variables.less  
-└── template.php  
+├── index.php  
+├── template.php  
+└── typo.php  
 
 ##Подключение js файлов через CDN в файле /include/header.php:
 
