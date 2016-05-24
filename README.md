@@ -24,7 +24,7 @@
 │   └── logotype.png  
 ├── include  
 │   ├── config.php.inc  
-│   ├── define.php.inc 
+│   ├── define.php.inc  
 │   ├── footer.php  
 │   └── header.php  
 ├── js  
@@ -39,7 +39,7 @@
 │   └── script.min.js  
 ├── less  
 │   ├── bootstrap  
-│   │   └── файлы less bootstrap 
+│   │   └── файлы less bootstrap  
 │   ├── font-awesome.less  
 │   ├── fonts.less  
 │   ├── bootstrap.less  
